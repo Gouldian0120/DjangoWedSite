@@ -100,6 +100,8 @@ python manage.py runserver
 
 ## Contributing
 
-If you actually want to use for your wedding just [get in touch](http://www.coryzue.com/contact/) or make an issue for anything
+If you want to use this project for your wedding just [get in touch](http://www.coryzue.com/contact/) or make an issue for anything
 you encounter.
 I haven't built out complete docs yet because I wasn't sure anyone would be interested, but am happy to do that if people are!
+
+---Cory
