@@ -1,5 +1,5 @@
 import csv
-import io
+import StringIO
 import uuid
 from guests.models import Party, Guest
 
@@ -39,7 +39,7 @@ def export_guests():
         'is_child', 'category', 'is_invited', 'is_attending',
         'rehearsal_dinner', 'meal', 'email', 'comments'
     ]
-    file = io.StringIO()
+    file = StringIO.StringIO()
     writer = csv.writer(file)
     writer.writerow(headers)
     for party in Party.in_default_order():
